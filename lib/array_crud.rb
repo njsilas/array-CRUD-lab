@@ -8,12 +8,12 @@ end
 
 def add_element_to_end_of_array(sport, football)
     sport = ["soccer", "hockey", "baseball", "basketball"]
-    sport << "arrays!"
+    sport << "#{football}"
 end
 
 def add_element_to_start_of_array(array, element)
     sport = ["soccer", "hockey", "baseball", "basketball"]
-    sport.unshift("wow")
+    sport.unshift("#{element}")
 end
 
 def remove_element_from_end_of_array(array)
